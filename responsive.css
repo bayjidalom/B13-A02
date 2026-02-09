@@ -1,0 +1,26 @@
+@media screen and (max-width:576px){
+    .hamburger{
+        display: block;
+        width: 24px;
+    }
+
+    .navbar ul,
+    .hide-btn{
+        display: none !important;
+    }
+
+    .logo{
+        max-width: 137px;
+    }
+
+    .navbar{
+        width: ;
+        padding: 18px 20px;
+    }
+
+
+}
+
+
+
+
