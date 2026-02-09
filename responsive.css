@@ -1,26 +1,64 @@
-@media screen and (max-width:576px){
-    .hamburger{
+@media screen and (max-width:576px) {
+    .hamburger {
         display: block;
         width: 24px;
     }
 
     .navbar ul,
-    .hide-btn{
+    .hide-btn {
         display: none !important;
     }
 
-    .logo{
+    .logo {
         max-width: 137px;
     }
 
-    .navbar{
+    .navbar {
         width: ;
         padding: 18px 20px;
     }
 
 
+    /* About Podcast Section */
+
+    .about-container .about-content>h2 {
+        font-size: 32px;
+
+    }
+
+    #about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .about-container{
+        width: 97%;
+    }
+    .about-content {
+        
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .about-container .about-content>p {
+        margin-bottom: 40px;
+    }
+
+    .about-card-container {
+        max-width: 400px;
+    }
+
+    .about-container .about-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-container .about-card-container .card {
+        max-width: 180px;
+    }
+
+    .about-card-container .card>h2 {
+        font-size: 40px;
+    }
+
+    
 }
-
-
-
-
