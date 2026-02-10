@@ -47,7 +47,12 @@
     }
 
     .about-card-container {
-        max-width: 400px;
+        max-width: px;
+        margin-left: 20px;
+    }
+
+    .choose-card>h3 {
+        font-size: 22px;
     }
 
     .about-container .about-card-container {
@@ -77,9 +82,9 @@
         max-width: 400px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        gap: 16px ;
+        gap: 16px;
         margin: 0 auto;
-        
+
     }
 
     .choose-card {
@@ -98,7 +103,7 @@
         grid-row: span 1;
     }
 
-    
+
 
 
 
