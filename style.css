@@ -350,6 +350,11 @@ header {
     border-radius: 16px 16px 0 0;
 }
 
+iframe{
+    /* width: 380px;
+    height: 315px; */
+}
+
 .host-container {
     max-width: 1200px;
     display: flex;

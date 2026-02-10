@@ -123,7 +123,7 @@
         /* margin: 2%; */
     }
     .video-card{
-        width: 96%;
+        width: 100%;
         max-width: 400px;
         
         margin: 0 auto;
@@ -146,7 +146,10 @@
     }
 
     iframe{
+        width: 100%;
         /* width:96% ; */
+        /* max-width: 400px; */
+        overflow: hidden;
     }
 
     .host-container >*{
