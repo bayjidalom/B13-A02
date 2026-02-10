@@ -30,11 +30,13 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .about-container{
+
+    .about-container {
         width: 97%;
     }
+
     .about-content {
-        
+
         margin-left: 20px;
         margin-right: 20px;
         text-align: center;
@@ -60,5 +62,31 @@
         font-size: 40px;
     }
 
+    /* Why Choose Podcact Section */
+    #why-choose {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #why-choose .why-choose-container>h2 {
+        margin-bottom: 16px;
+        font-size: 32px;
+    }
+
+    .choose-card-container {
+        max-width: 400px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 16px;
+        margin: 0 auto;
+    }
+
+    .choose-card{
+        width: 400px;
+        
+    }
+
     
+
+
 }
