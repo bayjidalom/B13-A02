@@ -105,6 +105,57 @@
 
 
 
+    /* Host Section */
+
+    #feature {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .feature-title {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+
+    .video-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        /* margin: 2%; */
+    }
+    .video-card{
+        width: 96%;
+        max-width: 400px;
+        
+        margin: 0 auto;
+    }
+
+    .host-container {
+        flex-direction: column;
+    }
+
+   
+
+    .host-container {
+        margin: 2%;
+        /* width: 96%; */
+        max-width: 400px;
+        padding: 20px;
+        position: relative;
+        margin: 0 auto;
+        
+    }
+
+    iframe{
+        /* width:96% ; */
+    }
+
+    .host-container >*{
+        justify-content: center;
+        text-align: center;
+    }
+ 
+    
+
 
 
 

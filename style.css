@@ -249,22 +249,24 @@ header {
     justify-content: center;
 }
 
-.choose-card >img{
+.choose-card>img {
     max-width: 60px;
     margin-bottom: 16px;
 }
-.choose-card >h3{
-   font-size: 24px;
-   font-weight: 700;
-   margin-bottom: 16px;
-   color: #FFFFFF;
-    
+
+.choose-card>h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+
 }
-.choose-card >p{
-   font-size: 16px;
-   line-height: 24px;
-   color: #ffffffb4;
-    
+
+.choose-card>p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffffb4;
+
 }
 
 .choose-card-container .choose-card:nth-child(1) {
@@ -282,4 +284,132 @@ header {
 .choose-card-container .choose-card:nth-child(1) {
     grid-column: span 1;
 
+}
+
+
+/* Feature-Host Section */
+
+#feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #1A0B2E;
+
+}
+
+.feature-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.video-card>.card-content>h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.video-card>.card-content>p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.card-content {
+    /* border: 1px solid purple; */
+    padding: 24px;
+}
+
+
+.feature-container {
+    max-width: 1200px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin: 0 auto;
+}
+
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 120px;
+    gap: 30px;
+}
+
+.video-card {
+    max-width: 380px;
+    border: 1px solid black;
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 16px;
+}
+
+.video-card>iframe {
+    max-width: 380px;
+    border-radius: 16px 16px 0 0;
+}
+
+.host-container {
+    max-width: 1200px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+}
+
+.host-container.host-content ul {
+    list-style-type: none;
+    max-width: 184px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.host-container .host-content a {
+    text-decoration: none;
+}
+
+.host-container .host-content ul {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.host-image img {
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.host-content .host-name {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.host-content .about-host {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.host-container .host-content ul li {
+    width: 40px;
+    height: 40px;
+}
+
+.time-parent {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.time-parent .time {
+    color: #00FF88;
 }
