@@ -205,3 +205,81 @@ header {
     color: #FFFFFF;
     line-height: 20px;
 }
+
+
+/* Why Choose TechWave Section */
+
+#why-choose {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #230E3D;
+
+
+}
+
+#why-choose .why-choose-container {
+    max-width: 1200px;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+}
+
+#why-choose .why-choose-container>h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.choose-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.choose-card {
+    /* border: 1px solid white; */
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border: none;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.choose-card >img{
+    max-width: 60px;
+    margin-bottom: 16px;
+}
+.choose-card >h3{
+   font-size: 24px;
+   font-weight: 700;
+   margin-bottom: 16px;
+   color: #FFFFFF;
+    
+}
+.choose-card >p{
+   font-size: 16px;
+   line-height: 24px;
+   color: #ffffffb4;
+    
+}
+
+.choose-card-container .choose-card:nth-child(1) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.choose-card-container .choose-card:nth-child(2),
+.choose-card-container .choose-card:nth-child(3),
+.choose-card-container .choose-card:nth-child(4) {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.choose-card-container .choose-card:nth-child(1) {
+    grid-column: span 1;
+
+}
