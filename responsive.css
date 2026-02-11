@@ -122,9 +122,9 @@
         gap: 16px;
     }
 
-    .video-card{
+    .video-card {
         width: 100%;
-        max-width: 400px; 
+        max-width: 400px;
         margin: 0 auto;
     }
 
@@ -132,7 +132,7 @@
         flex-direction: column;
     }
 
-   
+
 
     .host-container {
         margin: 2%;
@@ -141,17 +141,17 @@
         padding: 20px;
         position: relative;
         margin: 0 auto;
-        
+
     }
 
-    iframe{
+    iframe {
         width: 100%;
         /* width:96% ; */
         /* width: 400px; */
         overflow: hidden;
     }
 
-    .host-container >*{
+    .host-container>* {
         justify-content: center;
         text-align: center;
     }
@@ -161,9 +161,9 @@
 
     /* Footer Related Styles */
 
-    
- 
-    
+
+
+
 
 
 

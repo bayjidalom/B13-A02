@@ -85,9 +85,104 @@ header {
 
 /* Banner Related Styles */
 
+#banner{
+    
+    padding-top: 101px;
+    padding-bottom: 101px;
+    /* background-color: yellow; */
+    background-image: url('./assets/hero-bg.png');
+}
+
+.banner-container{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.banner-container .banner-image {
+    max-width: 350px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.mic-parent{
+    max-width: 350px;
+}
+.circle{
+    max-width: 350px;
+    height: auto;
+}
+
+.mic{
+    max-width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.badge{
+    padding: 8px 16px;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    left: 252px;
+    top: 12px;
+
+}
 
 
+.banner-content{
+    text-align: center;
+    margin: 0 auto;
+}
 
+.banner-content h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.banner-content p{
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.button-flex{
+    max-width: 356px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.banner-content button{
+    padding: 12px 20px;
+    width: fit-content;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.banner-content .btn-one{
+    border: none;
+    background: var(--primary-color);
+    color: white;
+}
+
+.banner-content .btn-two{
+    background: transparent;
+    color: white;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+}
 
 
 
