@@ -80,8 +80,9 @@ header {
     font-weight: 600;
     background: var(--primary-color);
     color: #FFFFFF;
-
 }
+
+
 
 /* Banner Related Styles */
 
@@ -111,6 +112,11 @@ header {
 .circle{
     max-width: 350px;
     height: auto;
+    transition: transform linear 6s;
+}
+
+.circle:hover{
+    transform: rotate(2000deg);
 }
 
 .mic{
