@@ -161,6 +161,46 @@
 
     /* Footer Related Styles */
 
+    footer {
+        background-size: cover;
+        background-position: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-repeat: no-repeat;
+    }
+
+    footer .footer-container .footer-icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container {
+        max-width: 400px;
+    }
+
+    .footer-icons {
+        width: 255px;
+        margin: 0 auto;
+    }
+
+    footer .footer-container .footer-icons {
+        gap: 16px;
+
+    }
+
+    .text {
+        margin-left: 8px;
+    }
+
+    .footer-card {
+        display: inline-block;
+        justify-content: center;
+    }
+
+
+
+
+
+
 
 
 
