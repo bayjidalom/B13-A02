@@ -396,14 +396,14 @@ header {
 }
 
 .video-card {
-    max-width: 380px;
+    /* max-width: 380px; */
     border: none;
     background-color: rgba(37, 13, 68, 1);
     border-radius: 16px;
 }
 
 .video-card iframe {
-    max-width: 380px;
+    /* max-width: 380px; */
     border-radius: 16px 16px 0 0;
 }
 
